@@ -1,0 +1,88 @@
+\documentclass[journal]{IEEEtran} % use the `journal` option for ITherm conference style
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+
+\title{\textbf{SEMANTIC NEURAL MODEL APPROACH FOR FACE RECOGNITION SKETCH}}
+\author{CHANDANA NAVULURI, SANDHYA JUKANTI, RAGHUPATHI REDDY ALLAPURAM}
+
+
+\begin{document}
+\maketitle
+
+\textbf
+{SAMPLE PAPER}
+
+Multi-Scale Gradients Self-Attention Residual Learning for Face          Photo-Sketch Transformation
+
+ 
+{https://ieeexplore.ieee.org/document/9225019}
+
+\textbf{INTRODUCTION}:
+
+Face sketch synthesis and recognition have wide range of applications in law enforcement. Despite the impressive progresses have been made in faces sketch and recognition, most existing researches regard them as two separate tasks.
+
+Due to the difference of modality between face photo and face sketch, traditional exemplar-based methods often lead to missed texture details and deformation while synthesizing sketches.
+
+This paper aims at designing a framework that can simultaneously synthesize realistic face sketch image with which the domain discrepancy is reduced and extract discriminative face feature for face sketch recognition.
+
+\textbf{BACKGROUND}
+
+•Face sketch recognition, has made considerable progress in recent years. Due to the difference of modality between face photo and face sketch, traditional exemplar-based methods often lead to missed texture details and deformation while synthesizing sketches. 
+
+•Moreover, the deeper the network layer is, the more obvious the problems of gradient disappearance and explosion will be, which will lead to instability in the training process. 
+
+•The existing system proposes a multi-scale gradients self- attention residual learning framework for face photo- sketch transformation that embeds a self-attention mechanism in the residual block, making full use of the relationship between features to selectively enhance the characteristics of specific information through self- attention distribution. 
+
+\textbf{DRAWBACKS OF EXISTING SYSTEM:}
+
+•	Existing system is Opportunistic and uncontrollable
+
+•	Difficulties to obtain better performance
+
+•	Inaccurate estimations of the missing pixels
+
+•	High prediction complexity for large datasets
+
+•	Higher prediction complexity with higher dimensions
+
+\textbf{PROPOSED SYSTEM}
+
+•This paper aims at designing a framework that is able to simultaneously synthesize realistic face sketch image with which the domain discrepancy is reduced and extract discriminative face feature for face sketch recognition. The overall architecture mainly consists of two parts: namely a generator and a discriminator. The generator is fed with a face photo image and a corresponding sketch image can be obtained. For the discriminator, in order to learn the ability of face feature extraction, three images compose a triplet sample as the input.
+
+•Connected to the basic discriminator network, two branches are designed to implement the functions of real/fake sketch discrimination and face feature extraction. 
+
+•The discrimination branch is a convolutional layer with output size of 7×7 and a sigmoid activation layer to predict probability scores between 0 and 1, which is utilized to distinguish the input sketch image is true or fake. The face feature extraction branch is a fully-connected layer with output size of 1024, with which a face sketch image can be represented as a 1024-dimension feature vector. 
+
+•The input nodes receive the input in the form of numeric expression. The information is represented as activation values and passed through the hidden layers to reach the output nodes. A Feed-Forward Network topology is implemented where, the signal travels in only one direction. 
+
+\textbf{SYSTEM DESIGN}
+
+This system consists of two parts:
+
+                   1.Pre-processing
+                   
+                   2.Feature extraction                   
+
+Pre-processing makes changes to the sketches/photos to make all the photos in the dataset similar.
+
+Feature extraction extracts the features/patches from the photos to retreive the original photo from the database.
+
+\textbf{PERFORMANCE METRICS}
+
+•	Face sketch synthesis, as a key technique for solving face sketch recognition, has made considerable progress in recent years. 
+
+•	Due to the difference of modality between face photo and face sketch, traditional exemplar-based methods often lead to missed texture details and deformation while synthesizing sketches. 
+
+•	When comparing with real-time photo the characteristics of the face are unrecognizable.
+
+•	Therefore, the objective is to find the original photo with a given sketch with maximum accuracy.
+
+
+
+
+
+\end{document}
