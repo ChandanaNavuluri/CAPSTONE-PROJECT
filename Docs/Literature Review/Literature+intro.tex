@@ -1,0 +1,85 @@
+\documentclass[journal]{IEEEtran} % use the `journal` option for ITherm conference style
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+
+\title{\textbf{SEMANTIC NEURAL MODEL APPROACH FOR FACE RECOGNITION FROM SKETCH}}
+\author{CHANDANA NAVULURI, SANDHYA JUKANTI, RAGHUPATHI REDDY ALLAPURAM}
+
+
+\begin{document}
+\maketitle
+
+
+ 
+
+\textbf{ABSTRACT}:
+
+\textit{Face sketch synthesis and reputation have wide range of packages in law enforcement. Despite the amazing progresses had been made in faces cartoon and reputation, maximum current researches regard them as  separate responsibilities. On this paper, we propose a semantic neural version approach so that you can address face caricature synthesis and recognition concurrently. We anticipate that faces to be studied are in a frontal pose, with regular lighting and neutral expression, and have no occlusions. To synthesize caricature/image photos, the face vicinity is divided into overlapping patches for gaining knowledge of. The size of the patches decides the scale of local face systems to be found out.}
+
+\textbf{INDEX TERMS}-Realistic Face Sketch Image, Generator, Discriminator, Sigmoid Activation Function, Multilayer Feed Forward Network Topology, Face Detection, Face Recognition.
+
+\textbf{I. INTRODUCTION}
+
+ Face recognition is a way for spotting or confirming an character's identity through looking at their face. Face popularity software program can recognize people in snap shots, videos, or in real time. Due to its critical applications in regulation enforcement, automatic face sketch-to-picture reputation has continually been a high precedence in computer imaginative and prescient and device getting to know. During police stops, officers can also use cell devices to pick out individuals. In numerous crook and intelligence investigations, a forensic hand-Drawn or laptop-generated composite caricature based totally at the description given by way of eyewitness testimony is the most effective clue to identify capacity   Suspects. As a result, an automated matching algorithm is needed to experiment law enforcement face databases or surveillance cameras the usage of a forensic comic strip quick and accurately. The forensic or composite drawings, then again, most effective encompass some simple details about the suspects' appearance, inclusive of the spatial topology in their faces, while other smooth biometric traits, consisting of pores and skin colour, race, or hair color, are omitted. Traditional sketch recognition algorithms are divided into two kinds: generative and discriminative algorithms. Till matching, generative techniques switch one of the modalities into the other. Discriminative strategies, such as the dimensions-invariant function remodel, on the other hand, extract features (sift). These characteristics, however, are not usually ideal for a cross-modal reputation venture. As a result, different techniques for gaining knowledge of or extracting modality-invariant features are being investigated. Deep mastering-based totally approaches, which analyze a famous latent embedding among the 2 domains, have lately emerged as potentially possible strategies for tackling the go-domain face popularity issue. Deep mastering techniques for caricature-to-photo reputation, on the other hand, are extra tough to apply than for other single-modality domains due to the fact they require a huge number of facts samples to prevent overfitting and nearby minima. Moreover, there are just a few hundred caricature-image pairs in the modern publicly handy comic strip-image datasets. Extra importantly, maximum datasets simplest have one cartoon according to topic, making it hard, if now not not possible, for the community to examine sturdy latent functions. As a result, maximum techniques have used a community that is both too shallow or simplest skilled on one of the modalities (typically the face photo). Current brand new tactics are especially involved with remaining the semantic representation gap among the 2 domains at the same time as ignoring the dearth of smooth-biometric knowledge in the comic strip modality. Despite the brilliant effects of latest sketch-photograph recognition algorithms, there may be still a step lacking on this segment: conditioning the matching method on tender biometric traits. There are usually a few facial attributes lacking within the sketch area, which includes skin, hair, and eye shades, gender, and ethnicity, in particular inside the software of comic strip-photo popularity, that is based on the quality of sketches. In precis, the main contributions of this paper consist of the following:
+• we suggest a semantic neural version method for face reputation from comic strip.
+• to improve the efficiency of our comic strip photo popularity, we enforce a new loss characteristic that fuses the facial attributes given through eyewitnesses with the geometrical residences of forensic sketches.
+• we use switch gaining knowledge of algorithm to extract the capabilities and use these functions to extract other capabilities to get correct consequences.
+
+\textbf{II. LITERATURE REVIEW}
+
+\textbf{SAMPLE PAPER1}:
+Multi-Scale Gradients Self-Attention Residual Learning for Face          Photo-Sketch Transformation
+Face sketch recognition, has made considerable progress in recent years. Due to the difference of modality between face photo and face sketch, traditional exemplar-based methods often lead to missed texture details and deformation while synthesizing sketches. And limited to the local receptive eld, Convolutional Neural Networks-based methods cannot deal with the interdependence between features well, which makes the constraint of facial features insufficient; as such, it cannot retain some details in the synthetic image.
+Moreover, the deeper the network layer is, the more obvious the problems of gradient disappearance and explosion will be, which will lead to instability in the training process. Therefore, in this paper, we propose a multi-scale gradients self- attention residual learning framework for face photo- sketch transformation that embeds a self-attention mechanism in the residual block, making full use of the relationship between features to selectively enhance the characteristics of specific information through self- attention distribution. Simultaneously, residual learning can keep the characteristics of the original features from being destroyed.
+In addition, the problem of instability in GAN training is alleviated by allowing discriminator to become a function of multi-scale out- puts of the generator in the training process. Based on cycle framework, the matching between the target domain image and the source domain image can be constrained while the mapping relationship between the two domains is established so that the tasks of face photo-to-sketch synthesis (FP2S) and face sketch- to- photo synthesis (FS2P) can be achieved simultaneously. Both Image Quality Assessment (IQA) and experiments related to face recognition show that our method can achieve state-of- the-art performance on the public benchmarks, whether using FP2S or FS2P.
+
+{Some of the drawbacks of this model } 
+•	Difficulties to obtain better performance 
+•	Inaccurate estimations of the missing pixels 
+•	High prediction complexity for large datasets 
+•	Higher prediction complexity with higher dimensions 
+
+\textbf{SAMPLE PAPER2}:Graph-Regularizd Locality-Constraine Join  Dictionary and Residual Learning for Face Sketch Synthesis[Junjun Jiang, Yi Yu, Zheng Wang, Xianming Liu
+2019]
+Most of the current face sketch synthesis approaches directly learn the relationship between the photos and sketches, and it is very difficult for them to generate the individual specific features, which we call rare characteristics
+
+{DRAWBACKS:}
+Cannot improve accuracy by preserving fast processing.
+Cannot achieve noise resistant detection.
+Classification accuracy is lower
+
+\textbf{SAMPLEPAPER3: }Cross-Domain Face Sketch Synthesis[MINGJIN ZHANG, JING ZHANG, YUAN CHI, YUNSONG LI 2019]
+In the proposed cross-do domain, while the target task is to recover the structure in the sketch domain. But in reality, the training data is not suficient to learn the model main synthesis work, the source task is to construct the structure of faces in the photo
+
+{DRAWBACKS:}
+Method is sensitive to noise.
+Cannot improve accuracy by preserving fast processing.
+Cannot achieve noise resistant detection.
+
+\textbf{SAMPLEPAPER4:}A Deep Collaborative Framework for Face Photo–Sketch Synthesis[Mingrui Zhu, Jie Li, Nannan Wang 2019]
+This strategy can constrain the two opposite mappings and make them more symmetrical, thus making the network more suitable for the photo–sketch synthesis task and obtaining higher quality generated images. Qualitative and quantitative experiments demonstrated the superior performance of our model in comparison with the existing state-of-theart solutions.
+
+{DRAWBACKS:}
+Solutions have been proved ineffective.
+Imbalance classification is the most critical and a well-known problem.
+Extremely difficult for the classification algorithm to predict.
+
+\textbf{PERFORMANCE METRICS}
+
+•	Face sketch synthesis, as a key technique for solving face sketch recognition, has made considerable progress in recent years. 
+
+•	Due to the difference of modality between face photo and face sketch, traditional exemplar-based methods often lead to missed texture details and deformation while synthesizing sketches. 
+
+•	When comparing with real-time photo the characteristics of the face are unrecognizable.
+
+•	Therefore, the objective is to find the original photo with a given sketch with maximum accuracy.
+
+
+
+
+
+\end{document}
